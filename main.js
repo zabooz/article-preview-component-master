@@ -3,7 +3,6 @@ const michelle    = document.querySelector('.avatar-michelle');
 const shareCon  = document.querySelector('.share-container');
 const footer = document.querySelector('footer');
 const icon = document.querySelector('.share-icon')
-let width = window.innerWidth;
 
 
 
@@ -11,6 +10,7 @@ let width = window.innerWidth;
 
 
 shareBtn.addEventListener('click',e => {
+    let width = window.innerWidth;
     if(width <376){
         shareBtn.classList.toggle('btn-clicked');
         shareCon.classList.toggle('share-container-show');
