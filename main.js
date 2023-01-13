@@ -4,13 +4,14 @@ const shareCon  = document.querySelector('.share-container');
 const footer = document.querySelector('footer');
 const icon = document.querySelector('.share-icon')
 
-
+let width = null;
 
 
 
 
 shareBtn.addEventListener('click',e => {
-    let width = window.innerWidth;
+    width = window.innerWidth;
+    console.log(width)
     if(width <376){
         shareBtn.classList.toggle('btn-clicked');
         shareCon.classList.toggle('share-container-show');

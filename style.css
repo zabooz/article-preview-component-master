@@ -140,7 +140,7 @@ footer {
     background-color: hsl(217, 19%, 35%)
 }
 
-@media only screen and (min-width:376px){
+@media only screen and (min-width:600px){
 
     body{
         flex-direction: row;
