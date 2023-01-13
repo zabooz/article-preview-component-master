@@ -12,7 +12,7 @@ let width = null;
 shareBtn.addEventListener('click',e => {
     width = window.innerWidth;
     console.log(width)
-    if(width <376){
+    if(width <600){
         shareBtn.classList.toggle('btn-clicked');
         shareCon.classList.toggle('share-container-show');
         michelle.classList.toggle('michelle-hide');
